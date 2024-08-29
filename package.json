@@ -4,9 +4,9 @@
   "description": "前端常用辅助函数",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && node ./dist/test/index.js"
   },
   "author": "xuxulee@163.com",
   "license": "ISC",
