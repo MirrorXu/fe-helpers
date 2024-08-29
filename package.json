@@ -4,8 +4,13 @@
   "description": "前端常用辅助函数",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "xuxulee@163.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
 }
