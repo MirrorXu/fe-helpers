@@ -1,2 +1,3 @@
-import './type'
-import './debounce'
+// import './type'
+// import './debounce'
+import './url'
