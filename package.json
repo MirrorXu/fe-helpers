@@ -12,5 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.4.1",
+    "commitlint": "^19.4.1",
+    "husky": "^9.1.5"
   }
 }

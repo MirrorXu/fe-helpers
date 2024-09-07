@@ -1,0 +1,4 @@
+#! bash
+echo "# git hook: commit-msg"
+# Add commit message linting to commit-msg hook
+npx --no -- commitlint --edit "$1"
