@@ -1,8 +1,11 @@
 ## git commit message
+规则：`type(scope?): subject` 。
+
+`scope`是可选项; 支持多scope，scope之间可以使用"/", "\" 和 "," 分割。
+
+`type`支持的类型如下，代表的意义做出了解释。（ commitlint-config-conventional- 基于 Angular 约定）。
 
 ```text
-# 提交类型支持的类型，根据 commitlint-config-conventional（基于 Angular 约定）。
-
 “build”   :可能表示与构建相关的提交，比如构建工具的配置更改或构建流程的优化。
 
 “chore”   :通常用于一些杂务性的任务，如清理代码、更新依赖等。
