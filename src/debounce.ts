@@ -4,10 +4,11 @@ export const debounce = (fn: Function, duration?: number | undefined) => {
 
     if (isUndefined(duration)) duration = 200 // 默认200毫秒
 
-    let timer: number | null = null;
+    let timer:unknown;
     let promise: Promise<any>;
     return function debounced(...args: unknown[]) {
         if (timer) {
+            // @ts-ignore
             clearTimeout(timer);
             timer = null;
         }

@@ -2,11 +2,13 @@
   "name": "helpers",
   "version": "1.0.0",
   "description": "前端常用辅助函数",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist",
-    "test": "npm run build && node ./dist/test/index.js"
+    "test": "npm run build && node ./dist/test/index.js",
+    "webpack": "npx webpack --config ./build/webpack.config.js"
   },
   "author": "xuxulee@163.com",
   "license": "ISC",
@@ -14,6 +16,10 @@
     "typescript": "^5.5.4"
   },
   "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
     "@commitlint/config-conventional": "^19.4.1",
     "commitlint": "^19.4.1",
     "husky": "^9.1.5"
