@@ -1,7 +1,10 @@
 {
-  "name": "helpers",
-  "version": "1.0.0",
+  "name": "mirror-helpers",
+  "version": "1.0.2",
   "description": "前端常用辅助函数",
+  "keywords": [
+    "helpers"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,8 +13,7 @@
     "test": "npm run build && node ./dist/test/index.js",
     "webpack": "npx webpack --config ./build/webpack.config.js"
   },
-  "author": "xuxulee@163.com",
-  "license": "ISC",
+  "author": "MirrorXu <xuxulee@163.com>",
   "dependencies": {
     "typescript": "^5.5.4"
   },
@@ -27,5 +29,11 @@
   "engines": {
     "node": "18.20.2",
     "npm": "10.8.1"
-  }
+  },
+  "homepage": "https://github.com/MirrorXu/helpers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MirrorXu/helpers.git"
+  },
+  "license": "MIT"
 }
