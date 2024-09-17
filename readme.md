@@ -1,3 +1,7 @@
+## 项目介绍
+- 该项目中实现了前端常用Helpers函数
+- 使用Typescript构建
+  
 ## git commit message
 规则：`type(scope?): subject` 。
 
