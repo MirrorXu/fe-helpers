@@ -1,6 +1,13 @@
 ## 项目介绍
-- 该项目中实现了前端常用Helpers函数
-- 使用Typescript构建
+- 简洁、可靠的前端常用Helpers
+- 支持Typescript
+
+## 使用
+```js
+import { isString } from 'fe-helpers'
+const str = '1'
+console.log(isString(str))
+```
   
 ## git commit message
 规则：`type(scope?): subject` 。
