@@ -3,6 +3,12 @@
 - 支持Typescript
 
 ## 使用
+### npm
+安装
+```bash
+npm install fe-helpers
+```
+使用
 ```js
 import { isString } from 'fe-helpers'
 const str = '1'
