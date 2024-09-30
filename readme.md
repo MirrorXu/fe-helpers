@@ -15,7 +15,7 @@ const str = '1'
 console.log(isString(str))
 ```
   
-## git commit message
+##  提交信息规则 git commit message
 规则：`type(scope?): subject` 。
 
 `scope`是可选项; 支持多scope，scope之间可以使用"/", "\" 和 "," 分割。
