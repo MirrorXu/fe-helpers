@@ -4,9 +4,7 @@
 
 ## highlight.js
 
-
 ## qrcode
-
 
 ## screenfull
 
